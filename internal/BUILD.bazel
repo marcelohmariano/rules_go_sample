@@ -1,0 +1,6 @@
+load("//internal:rules.bzl", "go_stdlib")
+
+go_stdlib(
+    name = "stdlib",
+    visibility = ["//visibility:private"],
+)
